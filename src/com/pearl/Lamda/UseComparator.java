@@ -19,6 +19,7 @@ public class UseComparator {
 
 		Collections.sort(strings);
 		System.out.println("Simple sort");
+
 	}
 
 }
