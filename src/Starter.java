@@ -1,4 +1,4 @@
-import com.pearl.Lamda.LamdaThread;
+import com.pearl.java.lamda.LamdaThread;
 
 /**
  * 

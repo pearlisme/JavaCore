@@ -1,4 +1,4 @@
-package com.pearl.Lamda.interfaces;
+package com.pearl.java.lamda.interfaces;
 
 
 @FunctionalInterface

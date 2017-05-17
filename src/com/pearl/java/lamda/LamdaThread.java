@@ -1,4 +1,4 @@
-package com.pearl.Lamda;
+package com.pearl.java.lamda;
 
 public class LamdaThread {
 

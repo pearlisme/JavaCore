@@ -1,6 +1,6 @@
-package com.pearl.Lamda;
+package com.pearl.java.lamda;
 
-import com.pearl.Lamda.interfaces.InterfaceWithArgs;
+import com.pearl.java.lamda.interfaces.InterfaceWithArgs;
 
 public class UseInterfaceWithArgs {
 
