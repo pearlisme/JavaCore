@@ -1,11 +1,16 @@
 package com.pearl.java;
 
+import java.util.Objects;
+
 public class Person {
 
     private String name;
     private int age;
 
     public Person(String name, int age) {
+
+        Objects.requireNonNull(name);
+
         this.name = name;
         this.age = age;
     }
