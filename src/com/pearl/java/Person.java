@@ -17,6 +17,9 @@ public class Person {
 
     public Person() {
 
+        this.name ="Mysteos";
+        this.age = 30;
+
     }
 
     public String getName() {
