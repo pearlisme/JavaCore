@@ -20,8 +20,8 @@ public class StreamDemo {
 
 
         doSequencialStream(personList);
-        doParallelStream(personList);
-        doStreamMap(personList);
+//        doParallelStream(personList);
+//        doStreamMap(personList);
 
     }
 
@@ -59,7 +59,11 @@ public class StreamDemo {
         System.out.println("Sequencial Stream: ");
         personList.stream()
                 .filter(predicate)
-                .forEach(t -> System.out.println(t.getName() +" is ("+ t.getAge()+ ") years old"));
+                .map((t) -> {
+                    return t.getName() + " : Eligible for Pension";
+                })
+                .forEach(System.out::println);
+                //                .forEach(t -> System.out.println(t.getName() +" is ("+ t.getAge()+ ") years old"));
 
         System.out.println("Sequencial Stream by Arrays");
 
