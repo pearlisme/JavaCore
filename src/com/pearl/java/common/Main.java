@@ -1,4 +1,4 @@
-package com.pearl.java;
+package com.pearl.java.common;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.pearl.java.Concurrent;
+package com.pearl.java.concurrency;
 
 import java.util.concurrent.*;
 

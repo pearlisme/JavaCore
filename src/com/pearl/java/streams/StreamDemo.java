@@ -1,6 +1,6 @@
 package com.pearl.java.streams;
 
-import com.pearl.java.Person;
+import com.pearl.java.common.Person;
 
 import java.util.ArrayList;
 import java.util.List;

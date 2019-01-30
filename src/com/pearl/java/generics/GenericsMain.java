@@ -1,8 +1,7 @@
 package com.pearl.java.generics;
 
-import com.pearl.java.Person;
+import com.pearl.java.common.Person;
 
-import java.lang.reflect.Constructor;
 import java.util.*;
 
 public class GenericsMain {

@@ -1,4 +1,4 @@
-//package com.pearl.java.common;
+//package com.pearl.java.designpattern;
 //
 //public class FactorialDemo {
 //

@@ -1,4 +1,4 @@
-package com.pearl.java.Concurrent;
+package com.pearl.java.concurrency;
 
 public class RunnableThread implements Runnable{
     @Override
