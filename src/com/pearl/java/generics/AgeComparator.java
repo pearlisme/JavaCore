@@ -1,6 +1,6 @@
 package com.pearl.java.generics;
 
-import com.pearl.java.Person;
+import com.pearl.java.common.Person;
 
 import java.util.Comparator;
 
