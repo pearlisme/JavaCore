@@ -1,6 +1,7 @@
+/*
 package com.pearl.java.reference;
 
-import com.pearl.java.Person;
+import com.pearl.java.common.Person;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
@@ -44,7 +45,8 @@ public class PhantomReferenceD {
 
 class FinalizePerson extends PhantomReference<Person>{
 
-    /**
+    */
+/**
      * Creates a new phantom reference that refers to the given object and
      * is registered with the given queue.
      *
@@ -55,7 +57,8 @@ class FinalizePerson extends PhantomReference<Person>{
      *
      * @param referent the object the new phantom reference will refer to
      * @param q        the queue with which the reference is to be registered,
-     */
+     *//*
+
     public FinalizePerson(Person referent, ReferenceQueue<? super Person> q) {
         super(referent, q);
     }
@@ -64,4 +67,4 @@ class FinalizePerson extends PhantomReference<Person>{
     public void cleanUp() {
         System.out.println("System is in cleaning the resources...");
     }
-}
+}*/

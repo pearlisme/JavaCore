@@ -2,6 +2,7 @@ package com.pearl.java.lamda;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class UseComparator {
@@ -17,8 +18,16 @@ public class UseComparator {
 		strings.add("EEE");
 		strings.add("fff");
 
+		Comparator<String> comp = (str1, str2) -> {
+			return str1.compareToIgnoreCase(str2);
+		};
+
 		Collections.sort(strings);
-		System.out.println("Simple sort");
+		System.out.println("Sort w/ case: "+ strings );
+
+		Collections.sort(strings,comp);
+		System.out.println("Sort w/o case: "+ strings );
+
 
 	}
 

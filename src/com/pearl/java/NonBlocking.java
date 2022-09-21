@@ -1,5 +1,7 @@
 package com.pearl.java;
 
+import com.pearl.java.common.Employee;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.BlockingDeque;

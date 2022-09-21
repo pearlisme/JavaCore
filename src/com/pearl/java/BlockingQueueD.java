@@ -1,5 +1,6 @@
 package com.pearl.java;
 
+import com.pearl.java.common.Employee;
 import org.springframework.scheduling.annotation.Async;
 
 import java.util.concurrent.ArrayBlockingQueue;
